@@ -4,8 +4,12 @@
 Using the bash shell script, `lbrynet claim search --text=<search term>`
 this script searches LBRY and saves the results to a file. The save file is the same name as the search term. Do not use spaces use _ between words. Example: red_herring.<br/>
 
-For installation just run: npm install<br/>
-Then `node  node lbry_search.js`
+For installation just run:
+
+git clone https://github.com/JupyterJones/lbry_search_nodejs.git<br/>
+cd lbry_search_nodejs<br/>
+Then ` npm install`<br/>
+USE: `node  node lbry_search.js`<br/>
 
 lbry_search_nodejs$ node lbry_search.js
 this results in `Search for what ? `
