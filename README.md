@@ -1,3 +1,6 @@
+
+<img alt="lbry-search-node-js" src="https://spee.ch/0/lbry-search-node-js.png" />
+
 # lbry_search_nodejs
 **Searches LBRY using lbrynet command and saves results to a text file.**
 
@@ -9,9 +12,14 @@ For installation just run:
 git clone https://github.com/JupyterJones/lbry_search_nodejs.git<br/>
 cd lbry_search_nodejs<br/>
 Then ` npm install`<br/>
-USE: `node  node lbry_search.js`<br/>do
+USE: `node lbry_search.js`<br/>do
 
-lbry_search_nodejs$ node lbry_search.js
+
+	In the Red_Herring.txt example you see "total_pages": 2 . Which means two pages are available. To print the second page use:
+	$ node lbry_search.js 2
+
+The trailing 1 on the script below means page 1
+$ node lbry_search.js 1
 this results in `Search for what ? `
 ## example:
     $ node lbry_search.js
